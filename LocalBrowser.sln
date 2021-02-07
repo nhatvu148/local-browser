@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalBrowser", "LocalBrowser\LocalBrowser.csproj", "{F4904AB6-2295-4CE2-8C08-652ED66728FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticServer", "StaticServer\StaticServer.csproj", "{1CAEB428-5C78-434E-AB40-F2B2564254C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4904AB6-2295-4CE2-8C08-652ED66728FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4904AB6-2295-4CE2-8C08-652ED66728FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4904AB6-2295-4CE2-8C08-652ED66728FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4904AB6-2295-4CE2-8C08-652ED66728FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CAEB428-5C78-434E-AB40-F2B2564254C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CAEB428-5C78-434E-AB40-F2B2564254C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CAEB428-5C78-434E-AB40-F2B2564254C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CAEB428-5C78-434E-AB40-F2B2564254C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E1826F0-6381-437D-B1B9-0B9AA0B1B254}
+	EndGlobalSection
+EndGlobal

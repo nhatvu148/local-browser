@@ -1,0 +1,6 @@
+LocalBrowser/bin
+LocalBrowser/obj
+LocalBrowser/public
+StaticServer/bin
+StaticServer/obj
+StaticServer/wwwroot

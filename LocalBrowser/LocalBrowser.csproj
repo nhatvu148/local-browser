@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>assets\icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="public\ref\**" />
+    <EmbeddedResource Remove="public\ref\**" />
+    <None Remove="public\ref\**" />
+    <Page Remove="public\ref\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="assets\icon.ico" />
+    <None Remove="assets\icon.png" />
+    <None Remove="public\appsettings.Development.json" />
+    <None Remove="public\appsettings.json" />
+    <None Remove="public\StaticServer.deps.json" />
+    <None Remove="public\StaticServer.dll" />
+    <None Remove="public\StaticServer.exe" />
+    <None Remove="public\StaticServer.pdb" />
+    <None Remove="public\StaticServer.runtimeconfig.dev.json" />
+    <None Remove="public\StaticServer.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="assets\icon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="public\StaticServer.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="public\StaticServer.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="public\StaticServer.runtimeconfig.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.705.50" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="App.xaml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
